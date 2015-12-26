@@ -8,12 +8,14 @@ html,
 body {
     height: 100%;
     background-color: #EEF0EB;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
 }
 
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .carousel {
-    height: 60%;
+    height: 70%;
     width: 80%;
     margin-left: 10%;
 }

@@ -35,13 +35,16 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
+                <img class="pull-left" id="logo-img" src="img/res/logo.png"/>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Marcela Capó</a>
+                <a class="navbar-brand" href="index.html"> 
+                    Marcela Capó
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -75,6 +78,7 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
 
             <!-- Wrapper for Slides -->
@@ -100,6 +104,13 @@
                         <h2>Caption 3</h2>
                     </div>
                 </div>
+                <div class="item">
+                    <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('img/slides/slide4.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h2>Caption 4</h2>
+                    </div>
+                </div>
             </div>
 
             <!-- Controls -->
@@ -116,17 +127,27 @@
 
         
 
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-12">
                 <h1>Half Slider by Start Bootstrap</h1>
                 <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>half-slider.css</code>file.</p>
             </div>
-        </div>
+        </div>-->
 
         <hr>
 
         <!-- Footer -->
         <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="https://www.facebook.com/capomarcela" target="_blank">
+                        <img src="img/res/fb.png"/>
+                    </a>
+                    <a href="https://www.twitter.com/capomarcela" target="_blank">
+                        <img src="img/res/tw.png"/>
+                     </a>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Marcela Capó 2015</p>
@@ -147,7 +168,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 3000 //changes the speed
     })
     </script>
 
