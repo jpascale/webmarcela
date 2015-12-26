@@ -70,3 +70,15 @@ nav > div.container > div.navbar-header > a.navbar-brand {
 }
 
 /* END FIXED NAV BAR */
+
+.footer-text {
+	text-align: center;
+	font-size: 1em;
+	background-color: #DEE0DA;
+	padding-top: 12px;
+	padding-bottom: 4px; 
+	width: 35%;
+	margin-left: 25%;
+	border-radius: 10px;
+}
+

@@ -17,9 +17,6 @@ a {
     color: black;
 }
 
-img {
-    border-radius: 55px;
-}
 
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
@@ -55,5 +52,5 @@ header {
 
 
 footer {
-    margin: 50px 0;
+    margin: 20px 0;
 }
