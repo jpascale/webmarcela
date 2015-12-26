@@ -1,0 +1,31 @@
+/* FIXED NAV BAR */
+
+.navbar-inverse{
+	background-color: #FFFFFF;
+
+}
+
+/* Seccions */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+    background-color: #353434;
+    color: #983593;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Logo */
+nav > div.container > div.navbar-header > a.navbar-brand {
+	color: #000000;
+}
+
+/* END FIXED NAV BAR */
