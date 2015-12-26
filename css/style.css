@@ -1,14 +1,45 @@
 /* FIXED NAV BAR */
 
-/* Logo img */
-#logo-img {
-	width: 30%;
+.logobar {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 2.5em;
+}
+.logobar > a {
+	text-decoration: none;
+	color: black;
 }
 
+/* Logo img */
+#logo-img {
+	width: 10%;
+}
+
+.secciones {
+	font-size: 1.1em;
+}
+
+.navbar {
+	background-color: #DEE0DA;
+	border: none;
+	padding-left: 25%;
+	margin-top: 1em;
+}
+
+.secciones > .navbar-nav > li > a {
+	margin-left: 1em;
+	margin-right: 1em;
+	/*background-color: #DEE0DA;*/
+}
+
+.secciones > .navbar-nav > li > a:hover {
+	background-color: #B5B5B5;
+}
+/*
 .navbar-inverse{
 	background-color: #FFFFFF;
 
-}
+}*/
 
 /* Seccions */
 

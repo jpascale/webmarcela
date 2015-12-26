@@ -12,9 +12,20 @@ body {
     font-size: 1em;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border-radius: 55px;
+}
+
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .carousel {
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;
     height: 70%;
     width: 80%;
     margin-left: 10%;
@@ -39,12 +50,9 @@ body {
 }
 
 header {
-    margin-top: 7em;
 }
 
-#myCarousel{
 
-}
 
 footer {
     margin: 50px 0;
