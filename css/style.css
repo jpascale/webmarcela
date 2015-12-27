@@ -1,3 +1,8 @@
+
+#img-flag {
+	height: 3vh;
+}
+
 /* FIXED NAV BAR */
 
 .logobar {
@@ -43,9 +48,14 @@
 
 /* Seccions */
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #000000;
-    background-color: #FFFFFF;
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+	color: #EEF0EB;
+	background-color: #A6A9A1;
+	border-radius: 10px;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus {
@@ -53,16 +63,11 @@
     color: #FFFFFF;
 }
 
-
-.navbar-inverse .navbar-nav>li>a:hover {
-    background-color: #000000;
-    color: #FFFFFF;
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #858880;
+    color: #EEF0EB;
+    border-radius: 10px;
 }
-
-/*.navbar-nav>li>a:focus .navbar-nav>li>a:active {
-	background-color: #405034;
-	color: #210948;
-}*/
 
 /* Logo */
 nav > div.container > div.navbar-header > a.navbar-brand {
@@ -73,7 +78,7 @@ nav > div.container > div.navbar-header > a.navbar-brand {
 
 .footer-text {
 	text-align: center;
-	font-size: 1em;
+	font-size: 0.8em;
 	background-color: #DEE0DA;
 	padding-top: 12px;
 	padding-bottom: 4px; 
